@@ -5,7 +5,7 @@ from .color import FigureColor
 
 
 class Circle(GeomFigure):
-    FIGURE_TYPE = "Круг"
+    FIGURE_TYPE = "круг"
 
     def __init__(self, radius: float, color: str):
         self.radius = radius
