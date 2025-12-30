@@ -13,7 +13,7 @@ def main():
     rect = Rectangle(N, N, "синий")
     circle = Circle(N, "зеленый")
     square = Square(N, "красный")
-    
+
     print(Fore.BLUE + str(rect) + Style.RESET_ALL)
     print(Fore.GREEN + str(circle) + Style.RESET_ALL)
     print(Fore.RED + str(square) + Style.RESET_ALL)
